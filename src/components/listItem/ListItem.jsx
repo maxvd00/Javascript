@@ -1,10 +1,11 @@
-import "./listItem.scss"
+import "./listItem.scss";
 
-export default function Listitem() {
+
+export default function ListItem () {
+
   return (
     <div className="listItem">
       item
-      
     </div>
-  )
+  );
 }
