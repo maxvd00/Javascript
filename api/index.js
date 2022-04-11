@@ -16,11 +16,10 @@ mongoose
   .catch((err) => { console.log(err);
   });
 
-  app.use(express.json()); // accepteerd json files
-
-  app.use("/api/auth", authRoute);
-
-
+app.use(express.json()); // accepteerd json files
 app.listen(8800, () => {
   console.log("Backend server is aan het runnen");
 });
+app.use("/api/auth", authRoute);
+
+
