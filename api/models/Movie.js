@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MovieSchema = new mongoose.Schema(
+const MovieSchema = new mongoose.Schema( // over de film zelf
   {
     title: { type: String, required: true, unique: true },
     desc: { type: String },

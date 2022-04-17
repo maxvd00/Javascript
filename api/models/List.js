@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const ListSchema = new mongoose.Schema(
+const ListSchema = new mongoose.Schema( //list van type film  
   {
     title: { type: String, required: true, unique: true },
     type: { type: String },
